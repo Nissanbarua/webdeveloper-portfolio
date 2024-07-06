@@ -158,3 +158,17 @@ color: #757575;
    
     text-align: center;
  }
+ /* footer style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+input[type="text"], footer input[type="email"], footer textarea {
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 18px;
+    display: block;
+}
